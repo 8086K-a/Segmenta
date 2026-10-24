@@ -1,0 +1,31 @@
+# 依赖
+node_modules/
+
+# Next.js
+.next/
+out/
+build/
+
+# 数据库（首次启动自动重建并播种）
+data/*.db
+data/*.db-wal
+data/*.db-shm
+data/.session-secret
+
+# 环境变量
+.env
+.env.local
+.env*.local
+
+# 参考用的第三方源码（不随仓库分发）
+OpenCut-main/
+
+# 本地工具与编辑器
+.workbuddy-ai/
+.vscode/
+.idea/
+.DS_Store
+*.log
+*.swp
+*.swo
+*.tsbuildinfo
